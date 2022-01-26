@@ -3,7 +3,7 @@ header{
     height: 92px;
     background: #cf2b2b;
     padding-left: 21px;
-    padding-top: 20px;
+    padding-top: 8px;
     position: fixed;
     top: 0;
     left: 0;
@@ -15,7 +15,8 @@ header h1{
     font-weight: normal;
     color:#ffffff;
     font-family: 'Righteous', cursive;
-    margin-bottom: 5px;
+    line-height: 55px;
+    margin-bottom: -5px;
     /*font-family: 'Encode Sans', sans-serif;
     font-family: 'Righteous', cursive;*/
 }
@@ -25,7 +26,33 @@ header p{
     font-weight: 400;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
+    line-height: 21px;
     /*font-family: 'Encode Sans', sans-serif;
     font-family: 'Righteous', cursive;
     font-family: 'Roboto', sans-serif;*/
+}
+.section{
+    margin-top: 126px;
+    background: plum;
+    height: 259px;
+    width: 100%;
+    padding-left: 21px;
+}
+.titulo{
+    width: 250px;
+    height: 25px;
+    background: royalblue;
+    margin-bottom: 17px;
+}
+.opcoes{
+    width: 100%;
+    background: chocolate;
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+}
+.opcao{
+    width: 172px;
+    height: 216px;
+    background: red;
 }
